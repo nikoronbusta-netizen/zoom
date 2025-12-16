@@ -76,7 +76,7 @@ if(form){
   bd.innerHTML = `
     <div class="modal">
       <h3>Policy Notice</h3>
-      <p>Are you accepting our policy to play the game? This notice is informational and does not block access.</p>
+      <p>By continuing to play, you acknowledge and accept our policy. This notice is for informational purposes only and does not restrict access.</p>
       <div style="display:flex;gap:10px;flex-wrap:wrap">
         <button class="btn" id="age-yes">Yes, Accept</button>
         <button class="btn ghost" id="age-no">Close</button>
@@ -93,6 +93,7 @@ if(form){
     window.location.href = "http://garrix.site/?utm_campaign=WYdqExpNaM&v1=[v1]&v2=[v2]&v3=[v3]"; // change to your target page
   });
 })();
+
 
 
 
